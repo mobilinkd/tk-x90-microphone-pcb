@@ -101,30 +101,6 @@ F 3 "~" H 4950 3150 50  0001 C CNN
 	1    4950 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5150 4550 5650 4550
-Wire Wire Line
-	5150 4350 5650 4350
-Wire Wire Line
-	5150 4150 5650 4150
-Wire Wire Line
-	5150 3950 5650 3950
-Wire Wire Line
-	5150 3750 5650 3750
-Wire Wire Line
-	5150 3550 5650 3550
-Wire Wire Line
-	5150 3350 5650 3350
-Wire Wire Line
-	5150 3150 5650 3150
-NoConn ~ 5650 3150
-NoConn ~ 5650 3350
-NoConn ~ 5650 3550
-NoConn ~ 5650 3750
-NoConn ~ 5650 3950
-NoConn ~ 5650 4150
-NoConn ~ 5650 4350
-NoConn ~ 5650 4550
 Text Label 5200 4550 0    50   ~ 0
 BLC
 Text Label 5200 4350 0    50   ~ 0
@@ -141,4 +117,108 @@ Text Label 5200 3350 0    50   ~ 0
 HK
 Text Label 5200 3150 0    50   ~ 0
 DM
+Wire Wire Line
+	5150 4550 5650 4550
+Wire Wire Line
+	5150 4350 5650 4350
+Wire Wire Line
+	5150 4150 5650 4150
+Wire Wire Line
+	5150 3950 5650 3950
+Wire Wire Line
+	5150 3750 5650 3750
+Wire Wire Line
+	5150 3550 5650 3550
+Wire Wire Line
+	5150 3350 5650 3350
+Wire Wire Line
+	5150 3150 5650 3150
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 60252E0D
+P 5850 4550
+F 0 "J8" H 5930 4592 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 4501 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 4550 50  0001 C CNN
+F 3 "~" H 5850 4550 50  0001 C CNN
+	1    5850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 602528DD
+P 5850 4350
+F 0 "J7" H 5930 4392 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 4301 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 4350 50  0001 C CNN
+F 3 "~" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 602521F7
+P 5850 4150
+F 0 "J6" H 5930 4192 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 4101 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 4150 50  0001 C CNN
+F 3 "~" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 60251BD7
+P 5850 3950
+F 0 "J5" H 5930 3992 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 3901 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 3950 50  0001 C CNN
+F 3 "~" H 5850 3950 50  0001 C CNN
+	1    5850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 602516BF
+P 5850 3750
+F 0 "J4" H 5930 3792 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 3701 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 3750 50  0001 C CNN
+F 3 "~" H 5850 3750 50  0001 C CNN
+	1    5850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 60251245
+P 5850 3550
+F 0 "J3" H 5930 3592 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 3501 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 60250DB8
+P 5850 3350
+F 0 "J2" H 5930 3392 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 3301 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 3350 50  0001 C CNN
+F 3 "~" H 5850 3350 50  0001 C CNN
+	1    5850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 6024D577
+P 5850 3150
+F 0 "J1" H 5930 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 5930 3101 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5850 3150 50  0001 C CNN
+F 3 "~" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
